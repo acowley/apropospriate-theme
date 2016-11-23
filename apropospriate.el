@@ -290,7 +290,7 @@ Set to `1.0' to prevent font size manipulation."
      `(helm-ls-git-modified-not-staged-face ((,class (:foreground ,orange-1))))
      `(helm-ls-git-renamed-modified-face ((,class (:foreground ,orange-1))))
      `(helm-ls-git-untracked-face ((,class (:foreground ,blue))))
-     `(show-paren-match ((,class (:background unspecified :underline (:style line :color ,pink)))))
+     `(show-paren-match ((,class (:background unspecified :inverse-video t))))
      `(show-paren-mismatch ((,class (:background unspecified :foreground ,red :inverse-video t :underline (:style line :color ,red)))))
      `(highlight-symbol-face ((,class (:foreground unspecified :background unspecified :underline (:style line :color ,base02)))))
      `(sp-show-pair-match-face ((,class (:inherit show-paren-match))))
