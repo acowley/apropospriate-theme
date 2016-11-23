@@ -427,7 +427,7 @@ Set to `1.0' to prevent font size manipulation."
      `(compilation-mode-line-exit ((,class (:inherit nil :foreground unspecified :background unspecified))))
      `(compilation-mode-line-fail ((,class (:inherit nil :foreground unspecified :background unspecified))))
      `(compilation-mode-line-run ((,class (:inherit nil :foreground unspecified :background unspecified))))
-     `(outline-1 ((,class (:foreground ,base03))))
+     ;`(outline-1 ((,class (:foreground ,base03))))
      `(org-date ((,class (:foreground ,purple))))
      `(org-done ((,class (:foreground ,green))))
      `(org-checkbox ((,class (:foreground ,purple))))
