@@ -534,7 +534,8 @@ Set to `1.0' to prevent font size manipulation."
      `(neo-expand-btn-face ((,class (:foreground ,base02))))
      `(neo-header-face ((,class (:inherit header-line))))
      `(neo-file-link-face ((,class (:foreground ,base03))))
-     `(neo-root-dir-face ((,class (:foregroud ,base02)))))
+     `(neo-root-dir-face ((,class (:foregroud ,base02))))
+     `(mu4e-header-value-face ((,class (:forground ,green)))))
 
     (custom-theme-set-variables
      theme-name
